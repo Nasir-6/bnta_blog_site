@@ -23,8 +23,27 @@ h3{
 
 
 /* All Dark Mode color versions using CSS selectors */
+/* Literally grabbed the classes and elements and done .darkMode */
 
 body.darkMode{
     background-color: #091d1e;
     color: #aaaaaa;
 }
+
+
+#title-section.darkMode{
+    border: 1px solid #aaaaaa;
+}
+
+
+.post.darkMode{
+    border: 1px solid #aaaaaa;
+}
+
+
+h3.darkMode{
+    color : #466876;
+}
+
+
+

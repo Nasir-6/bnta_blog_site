@@ -69,3 +69,21 @@ form.addEventListener('submit', (event) => {
 
     
 });
+
+
+
+// Star toggle
+const starIconList = document.getElementsByClassName("fa-star");
+
+const addStarToggle = function(starIcon){
+    starIcon.addEventListener('click', () => {
+        console.log("clicked on star")
+        starIcon.classList.toggle("fa-regular");
+        starIcon.classList.toggle("fa-solid");
+    })
+}
+
+
+for(let i =0; i < starIconList.length; i++){
+    addStarToggle(starIconList[i])
+}

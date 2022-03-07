@@ -5,12 +5,16 @@ body{
 
 h3{
     color: #aaaaaa;
+    width: 95%;
 }
 
 .post{
     margin: 2em;
     border: 1px solid #000000;
     padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 #title-section{

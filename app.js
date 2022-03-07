@@ -52,6 +52,12 @@ form.addEventListener('submit', (event) => {
     const postTitle = document.createElement('h3');
     postTitle.innerText = form.elements['postTitle'].value
     post.appendChild(postTitle)
+
+    const favoriteStar = document.createElement('i');
+    favoriteStar.classList.add('fa-star');
+    favoriteStar.classList.add('fa-regular');
+    addStarToggle(favoriteStar);    
+    post.appendChild(favoriteStar);
     
     const postDate = document.createElement('h4');
     postDate.innerText = `Date: ${form.elements['postDate'].value}`

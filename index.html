@@ -27,7 +27,7 @@
         <section id="title-section">
             <h2>Welcome to my blog!</h2>
             <p>Here's a picture of me:</p>
-            <img src="https://placebear.com/300/300" alt="placebear">
+            <img src="https://placekitten.com/400/300" alt="A small kitten hiding">
         </section> 
         <section>
             <header>
@@ -46,14 +46,25 @@
                 </section>
                 <section class="post">
                     <h3>Post 3</h3>
-                    <h4>Date: Christmas</h4>
-                    <p>Exercitationem laboriosam alias amet nemo aliquam, tempore repudiandae quasi odio placeat voluptatem asperiores quibusdam consequuntur, fugit quis consequatur. Doloribus sint nesciunt omnis odit ullam praesentium totam fuga quae, eligendi rerum.</p>
+                    <h4>Date: November</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis aspernatur molestiae a vero? Sunt facilis, sapiente exercitationem nobis deserunt rem ipsa saepe, in reiciendis nesciunt voluptatibus! Beatae neque nemo odio.</p>
                 </section>
             </main>
         </section>
+
+        <form action="/newPost" method="post" id="newPost">
+            <label for="postTitle">Post Title:</label><br>
+            <input type="text" id="postTitle" name="postTitle"><br>
+            <label for="postDate">Date:</label><br>
+            <input type="text" id="postDate" name="postDate"><br>
+            <label for="postText">Post:</label><br>
+            <textarea name="postText" rows="10" cols="30"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+
     </main>
     <footer>
-        <p>&#169; Colin Farquhar 2021</p>
+        <p>&#169; Nasir Islam 2022</p>
     </footer>
 </body>
 </html>

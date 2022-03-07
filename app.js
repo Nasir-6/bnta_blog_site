@@ -6,7 +6,6 @@ handleButtonClick = function () {
         // It is not in dark mode so set it all to dark mode
         console.log("Setting to dark mode");
         darkModeButton.innerText = "Light Mode"
-        
     }else{
         console.log("Setting to light mode")
         darkModeButton.innerText = "Dark Mode"
